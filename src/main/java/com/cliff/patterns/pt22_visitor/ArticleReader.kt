@@ -1,9 +1,9 @@
-package com.cliff.patterns.visitor2
+package com.cliff.patterns.pt22_visitor
 
 class ArticleReader(private val article: Article) {
     private var sum: Int = 0
 
-    fun accept(visitor: Visitor) {
+    fun accept(visitor: Visitor2) {
         visitor.visitStart()
         visitor.visitTitle(article.getTitle())
         article.getContent().forEach {

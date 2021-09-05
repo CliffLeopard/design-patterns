@@ -1,6 +1,6 @@
-package com.cliff.patterns.visitor2
+package com.cliff.patterns.pt22_visitor
 
-interface Visitor {
+interface Visitor2 {
     fun visitStart()
     fun visitTitle(title: String)
     fun visitContent(content: String)
@@ -9,7 +9,7 @@ interface Visitor {
     fun getSum(): Int
 }
 
-class ArticleWriter : Visitor {
+class ArticleWriter : Visitor2 {
 
     private var builder: StringBuilder = StringBuilder()
     private var article: String = ""
@@ -44,7 +44,7 @@ class ArticleWriter : Visitor {
 
 }
 
-class CliffVisitor(private var visitor: Visitor) : Visitor {
+class CliffVisitor(private var visitor: Visitor2) : Visitor2 {
 
     override fun visitStart() {
         visitor.visitStart()

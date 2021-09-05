@@ -1,4 +1,4 @@
-package com.cliff.patterns.singleton;
+package com.cliff.patterns.pt01_singleton;
 
 public class DoubleCheck {
     private static volatile DoubleCheck singleton;

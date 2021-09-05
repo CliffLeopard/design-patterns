@@ -1,4 +1,4 @@
-package com.cliff.patterns.factory;
+package com.cliff.patterns.pt02_factory;
 
 public interface Human {
     public String getColor();

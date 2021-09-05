@@ -1,4 +1,4 @@
-package com.cliff.patterns.pool;
+package com.cliff.patterns.pt40_pool;
 
 import java.util.Random;
 

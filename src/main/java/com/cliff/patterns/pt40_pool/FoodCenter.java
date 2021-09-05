@@ -1,4 +1,4 @@
-package com.cliff.patterns.pool;
+package com.cliff.patterns.pt40_pool;
 
 public class FoodCenter {
     public static void main(String[] args) throws Exception {

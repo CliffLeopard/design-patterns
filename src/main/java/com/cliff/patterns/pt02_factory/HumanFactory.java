@@ -1,4 +1,4 @@
-package com.cliff.patterns.factory;
+package com.cliff.patterns.pt02_factory;
 
 public class HumanFactory extends AbstractHumanFactory{
     @Override

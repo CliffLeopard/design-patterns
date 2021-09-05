@@ -1,6 +1,6 @@
-package com.cliff.patterns.factory;
+package com.cliff.patterns.pt02_factory;
 
-public class YellowHuman implements Human{
+public class BlackHuman implements Human{
     @Override
     public String getColor() {
         return null;

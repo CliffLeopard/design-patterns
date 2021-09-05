@@ -1,4 +1,4 @@
-package com.cliff.patterns.pool;
+package com.cliff.patterns.pt40_pool;
 
 import org.apache.commons.pool2.impl.GenericObjectPoolConfig;
 

@@ -1,4 +1,4 @@
-package com.cliff.patterns.visitor2
+package com.cliff.patterns.pt22_visitor
 
 object Main {
     @JvmStatic

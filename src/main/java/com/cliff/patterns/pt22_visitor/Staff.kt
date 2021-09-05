@@ -1,4 +1,4 @@
-package com.cliff.patterns.visitor
+package com.cliff.patterns.pt22_visitor
 
 import kotlin.random.Random
 

@@ -6,6 +6,7 @@ import net.sf.cglib.proxy.MethodInterceptor;
 public class Main {
     public static void main(String[] args) {
         simple();
+        classMode();
     }
 
     public static void classMode() {

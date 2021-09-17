@@ -1,0 +1,34 @@
+@startuml
+'https://plantuml.com/class-diagram
+@startuml
+'!theme superhero-outline
+'!theme black-knight
+!theme cerulean
+
+abstract class Abstraction {
+    void operation()
+}
+abstract RefinedAbstraction {
+    void operation()
+}
+interface Implementor {
+    void operationImpl()
+}
+class ConcreteImplementorA {
+    void operationImpl()
+}
+class ConcreteImplementorB {
+    void operationImpl()
+}
+
+skinparam groupInheritance 2
+
+Abstraction  o- Implementor
+
+Abstraction  <|-- RefinedAbstraction
+
+
+Implementor  <|.. ConcreteImplementorA
+Implementor  <|.. ConcreteImplementorB
+
+@enduml

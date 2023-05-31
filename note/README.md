@@ -31,7 +31,7 @@
 * 命令模式（Command Pattern）
 * 迭代器模式（Iterator Pattern）
 * [中介者模式（Mediator Pattern）](./pt10_中介者模式.md)
-* 备忘录模式（Memento Pattern）
+* [备忘录模式（Memento Pattern）](./pt21_备忘录模式.md)
 * [观察者模式（Observer Pattern）](./pt19_观察者模式.md)
 * [状态模式（State Pattern）](./pt27_状态模式.md)
 * [策略模式（Strategy Pattern）](./pt16_策略模式.md)
